@@ -31,7 +31,7 @@ The Script uses the functionalities provided in Base-R (`system.time()` command)
 The script records all the times in seconds, and finally outputs the results in a csv file.
 The `NSEQ` variable determines how long the random sequences should be for the speed test.
 
-**NOTE:** The result "SAST_100.csv" shows that *the type of alignment(Local or Global)* or *the nature of the sequences (AA or DNA)* **DOES NOT** affect the time needed to complete the alignment, but only *the size of the sequence* plays a critical role.
+**NOTE:** The result `"SAST_100.csv"` shows that *the type of alignment(Local or Global)* or *the nature of the sequences (AA or DNA)* **DOES NOT** affect the time needed to complete the alignment, but only *the size of the sequence* plays a critical role.
 
 **NOTE:** I haven't performed the statistical analysis and visualization on the dataset yet, maybe in the future.
 
