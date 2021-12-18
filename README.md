@@ -29,7 +29,7 @@ install.packages("here")
 The Script uses the functionalities provided in Base-R (`system.time()` command) to measure how long it takes for the computer to run a pairwise alignment task. I have first generated random sequences of DNA and Protein to use as data, then performed alignments. One might assume that it should take different times for the system to perform the task depending that the requested alignment is for Protein or DNA, for Local or Global alignment, with short sequneces or long sequences.
 
 The script records all the times in seconds, and finally outputs the results in a csv file.
-The NSEQ variable determines how long the random sequences should be for the speed test.
+The `NSEQ` variable determines how long the random sequences should be for the speed test.
 
 **NOTE:** The result "SAST_100.csv" shows that *the type of alignment(Local or Global)* or *the nature of the sequences (AA or DNA)* **DOES NOT** affect the time needed to complete the alignment, but only *the size of the sequence* plays a critical role.
 
