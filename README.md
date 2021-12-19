@@ -35,6 +35,8 @@ The `NSEQ` variable determines how long the random sequences should be for the s
 
 **NOTE:** I haven't performed the statistical analysis and visualization on the dataset yet, maybe in the future.
 
+**NOTE:** I just found out that the choice of `substitutionMatrix` in the `pairwiseAlignment` function, greatly changes the times of processing. The Script uses the NULL option (default), however I might change it to DNAFULL for DNA and BLOSUM62 for AA in the future.
+
 **NOTE:** As always, I have put the Expected_Results folder which contains the files that the R script generates once you run it.
 
 **NOTE:** ~~Make sure to edit setwd command in the R script to point at your desired directory.~~ In this particular repository, it is not necessary because of the *here* package. However you can consider to do it manually in case the script somehow does not work for you.
