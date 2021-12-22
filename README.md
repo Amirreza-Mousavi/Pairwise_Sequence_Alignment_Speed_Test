@@ -3,7 +3,7 @@ An R script to measure the potenial influence of different paramaters which *cou
 
 ---------------------------------------------------------------------------------------------------------
 ## Installation
-Make sure to have installed the folowing packages : [Biostrings,](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) [dplyr,](https://dplyr.tidyverse.org/) [ggplot2,](https://ggplot2.tidyverse.org/) and [here](https://here.r-lib.org/)
+Make sure to have installed the following packages : [Biostrings,](https://bioconductor.org/packages/release/bioc/html/Biostrings.html) [dplyr,](https://dplyr.tidyverse.org/) [ggplot2,](https://ggplot2.tidyverse.org/) and [here](https://here.r-lib.org/)
 
 ```
 if (!requireNamespace("BiocManager", quietly = TRUE))
